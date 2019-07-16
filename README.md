@@ -12,3 +12,9 @@ PyGames repository created to practise python programming language by making sim
 
 ![123](panic/assets/123.png)
 
+- ### Andromeda Journey: 
+
+  - __Rules__
+    - Here's gonna be the rules.
+
+![123](andromedaJourney/123.png)
