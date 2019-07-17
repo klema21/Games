@@ -1,6 +1,3 @@
-# Astrocrash08
-# Add Game object for complete program
-
 import math, random, pygame
 from superwires import games, color
 
