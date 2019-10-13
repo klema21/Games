@@ -226,8 +226,8 @@ class Game(object):
         games.screen.add(self.ship)
 
     def play(self):
-        games.music.load("andromedaJourney.mp3")
-        games.music.play(-1)
+        #games.music.load("andromedaJourney.mp3")
+        #games.music.play(-1)
 
         nebula_image = games.load_image("background.png", transparent = False)
         nebula_image = pygame.transform.scale(nebula_image, (768, 816))
