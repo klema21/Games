@@ -60,7 +60,7 @@ def main_menu():
                         quit()
  
         # Main Menu UI
-        screen.fill(blue)
+        screen.fill(gray)
         title=text_format("Andromeda Journey", font, 90, yellow)
         if selected=="start":
             text_start=text_format("START", font, 75, white)
@@ -81,7 +81,7 @@ def main_menu():
         screen.blit(text_quit, (screen_width/2 - (quit_rect[2]/2), 360))
         pygame.display.update()
         clock.tick(FPS)
-        pygame.display.set_caption("Python - Pygame Simple Main Menu Selection")
+        pygame.display.set_caption("ANDROMEDA JOURNEY")
 
 
 main_menu()

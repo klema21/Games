@@ -230,7 +230,7 @@ class Game(object):
         #games.music.play(-1)
 
         nebula_image = games.load_image("assets/background.png", transparent = False)
-        nebula_image = pygame.transform.scale(nebula_image, (768, 816))
+        nebula_image = pygame.transform.scale(nebula_image, (800, 600))
         games.screen.background = nebula_image
 
         self.advance()
