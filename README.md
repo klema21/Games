@@ -23,4 +23,4 @@ PyGames repository created to practice python programming language by making sim
     - Use arrow keys to move across the map.
     - Use space bar to shoot.
 
-![123](andromedaJourney/123.png)
+![123](andromedaJourney/assets/123.png)
