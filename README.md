@@ -1,13 +1,6 @@
 # PyGames Portfolio
 PyGames repository created to practice python programming language by making simple games.
 
-- ### Panic! Catch the damn keys!: 
-    - __Rules__
-		- You are the housekeeper in the palace but the evil ghost has stolen all the keys, catch all the keys until dawn comes.
-		- Use mouse to catch them all.
-
-![123](panic/assets/123.png)
-
 - ### Andromeda Journey: 
 
   - __Rules__
@@ -17,6 +10,13 @@ PyGames repository created to practice python programming language by making sim
 
 ![1](andromedaJourney/assets/1.png)
 ![2](andromedaJourney/assets/2.png)
+
+- ### Panic! Catch the damn keys!: 
+    - __Rules__
+		- You are the housekeeper in the palace but the evil ghost has stolen all the keys, catch all the keys until dawn comes.
+		- Use mouse to catch them all.
+
+![123](panic/assets/123.png)
 
 - ### Black Jack: 
 
