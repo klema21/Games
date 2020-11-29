@@ -38,13 +38,17 @@ function love.load(arg)
 	enemyImg = love.graphics.newImage('assets/enemy.png')
 	bulletImg = love.graphics.newImage('assets/bullet.png')
 	waterImg = love.graphics.newImage('assets/water.png')
+	bridge1Img = love.graphics.newImage('assets/bridge1.png')
+	bridge2Img = love.graphics.newImage('assets/bridge2.png')
+	bridge3Img = love.graphics.newImage('assets/bridge3.png')
+	bridge4Img = love.graphics.newImage('assets/bridge4.png')
 
 	tilemap = {
-        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-        {1, 2, 2, 2, 2, 2, 2, 2, 2, 1},
-        {1, 2, 3, 4, 5, 5, 4, 3, 2, 1},
-        {1, 2, 2, 2, 2, 2, 2, 2, 2, 1},
-        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
+        {1, 1, 2, 3, 4, 5, 5, 1, 1, 1},
+        {1, 1, 1, 1, 4, 5, 5, 1, 1, 1},
+        {1, 1, 1, 1, 4, 5, 5, 1, 1, 1},
+        {1, 1, 1, 1, 4, 5, 5, 1, 1, 1},
+        {1, 1, 1, 1, 4, 5, 5, 1, 1, 1}
     }	
 end
 
@@ -162,15 +166,15 @@ function love.draw(dt)
                     --setColor uses RGB, A is optional
                     --Red, Green, Blue, Alpha
                     --love.graphics.setColor(1, 1, 1)
-					love.graphics.draw(waterImg, j * 16, i * 16)
+					love.graphics.draw(waterImg, (j-1) * 16, (i-1) * 16)
                 elseif tile == 2 then
-                    --love.graphics.setColor(1, 0, 0)
+					love.graphics.draw(bridge1Img, (j-1) * 16, (i-1) * 16)
                 elseif tile == 3 then
-                    --love.graphics.setColor(1, 0, 1)
+					love.graphics.draw(bridge2Img, (j-1) * 16, (i-1) * 16)
                 elseif tile == 4 then
-                    --love.graphics.setColor(0, 0, 1)
+					love.graphics.draw(bridge3Img, (j-1) * 16, (i-1) * 16)
                 elseif tile == 5 then
-                    --love.graphics.setColor(0, 1, 1)
+					love.graphics.draw(bridge4Img, (j-1) * 16, (i-1) * 16)
                 end
 
                 --Draw the tile
